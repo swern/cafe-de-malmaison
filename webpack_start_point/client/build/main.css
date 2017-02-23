@@ -3,11 +3,40 @@ body{
  
 }
 
+#headerDiv {
+  background-color: #3b7ce5;
+  text-align: center;
+}
+
 #formDiv {
   background-color: red;
   text-align: center;
 }
 
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 03.s;
+  font-size: 17px;
+}
+
+/*ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+*/
 .counterBox{
   border: 2px solid mediumaquamarine;
   border-radius: 5px;

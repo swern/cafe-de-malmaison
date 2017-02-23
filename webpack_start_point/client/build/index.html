@@ -5,16 +5,27 @@
     <link rel='stylesheet' type='text/css' href='main.css'>
     <script src='bundle.js'></script>
   </head>
+
+<ul class="topnav" id="myTopnav">
+	<li><a href="#home">Home</a></li>
+	<li><a href="#about">About</a></li>
+	<li><a href="#contact">Contact</a></li>
+	<li class="icon">
+<!-- put your own function below -->
+		<a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+
   <body>
-  	<h1>
-  		Welcome to Cafe de Malmaison
-  	</h1>
+  	<div id="headerDiv">
+	  	<h1>
+	  		Welcome to Cafe de Malmaison
+	  	</h1>
+  	</div>
+
   	<div id="formDiv">
   		<h2>
   			Booking
   		</h2>
-  		
-	  		<form>
+  	  		<form>
 	  			First name: <br>
 	  			<input type='text' name='firstname'><br>
 	  			Last Name: <br>
@@ -24,7 +35,6 @@
 	  			Number of People: <br>
 	  			<input type="number">
 	  			<input type="submit" name="submit"> <br>
-
 	  		</form>
   		</div>
   </body>
