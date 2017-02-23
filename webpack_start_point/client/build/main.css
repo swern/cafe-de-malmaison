@@ -1,5 +1,11 @@
 body{
   font-family: Verdana;
+ 
+}
+
+#formDiv {
+  background-color: red;
+  text-align: center;
 }
 
 .counterBox{
